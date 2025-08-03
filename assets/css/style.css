@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: aliceblue;
+  transition: all 0.5s;
+}
+
+p {
+  color: rgba(240, 248, 255, 0.856);
+  font-family: "Sansation";
+  margin: 0 1.5em;
+  font-weight: 700px;
+}
+
+a:hover {
+  color: gold;
+}
+
+h1 {
+  color: goldenrod;
+  justify-self: center;
+}
+
+h2 {
+  color: rgb(164, 166, 168);
+  font-size: 19px;
+  justify-self: center;
+}
+
+header {
+  width: 100vw;
+  align-items: center;
+  background-color: rgba(31, 24, 24, 0.4);
+}
+
+.container.bannerH {
+  width: 330px;
+  height: 200px;
+  padding: 0;
+}
+
+.container.bannerH img {
+  padding: 0;
+  width: 330px;
+  height: 250px;
+}
+
+header .nav-links {
+  list-style: none;
+  justify-content: center;
+}
+
+.container.acordeon1 {
+  width: 40%;
+  justify-items: center;
+  padding: 0;
+  justify-content: center;
+}
+
+.container.acordeon1 h2 {
+  margin-inline-start: 3em;
+  margin-inline-end: 3em;
+  color: wheat;
+  padding: 0;
+}
+
+.container.acordeon1 .accordion-collapse.collapsing .accordion-body button {
+  background: none;
+  margin: 5% 0;
+  border-radius: 7%;
+  border-color: goldenrod;
+  margin-left: 0.9em;
+}
+
+.container.acordeon1 .accordion-collapse.collapse .accordion-body button {
+  background: none;
+  margin: 5% 0;
+  border-radius: 7%;
+  border-color: goldenrod;
+  transition: all 0.5s;
+  margin-left: 0.9em;
+}
+
+.container.acordeon1 .accordion-collapse.collapse .accordion-body button:hover {
+  color: gold;
+}
+
+.container.welcome {
+  background-color: rgba(34, 34, 34, 0.4);
+  margin-top: 3em;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container.welcome img {
+  width: 400px;
+  height: auto;
+}
+
+.container.AVid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.container.AVid video {
+  align-self: center;
+  height: 500px;
+  width: 350px;
+  object-fit: fill;
+  margin-top: 1em;
+}
+
+.container.cerf {
+  background-color: rgba(34, 34, 34, 0.4);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+  text-wrap: 5em;
+  text-align: center;
+}
+
+.container.cerf p {
+  margin-top: 2em;
+}
+
+.container.issa {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.issa img {
+  width: 530px;
+}
+
+.container.form {
+  background-color: rgb(46, 1, 1);
+  margin-top: 3em;
+  width: 400px;
+  border-radius: 0.5em;
+}
+.form-label.edit {
+  color: aliceblue;
+}
+.form-control.edit {
+  background-color: black;
+  border-color: gold;
+  color: bisque;
+}
+#formulario1 button {
+  margin-left: 40%;
+}
+
+@media (min-width: 900px) {
+  header .nav-links {
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  header .nav-links li {
+    display: inline-block;
+    padding: 0 5em;
+  }
+
+  .container.welcome img {
+    width: 600px;
+  }
+
+  .container.AVid {
+    width: 40%;
+  }
+
+  .container.issa img {
+    width: 700px;
+  }
+  .container.form {
+    width: 500px;
+  }
+}

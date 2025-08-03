@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta name="author" content="Daninson Zerpa" />
+    <meta
+      name="description"
+      content="Informacion clasificada de vida fitness , ejercicios y condicionamiento fisico"
+    />
+    <link rel="icon" href="assets/img/icoFF.ico" type="image/x-icon" />
+    <title>FrankFiit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="./assets/js/index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Frank Jesús Malavé Valderrama</h1>
+      <h2>Entrenador personal certificado por la ISSA</h2>
+      <div class="container bannerH">
+        <img src="assets/img/LogoF-.png" />
+      </div>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="certificados.html">Certificados</a></li>
+          <li><a href="about-me.html">Sobre mi</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="container acordeon1">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Menu
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <div
+                class="btn-group-vertical"
+                id="botonesAC"
+                role="group"
+                aria-label="Vertical button group"
+              >
+                <button id="btnInicio" type="button" class="btn btn-primary">
+                  <a href="index.html">Inicio</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                  <a href="certificados.html">Certificados</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                  <a href="about-me.html">Sobre mi</a>
+                </button>
+                <button type="button" class="btn btn-primary">
+                  <a href="contacto.html">Contacto</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container welcome">
+        <h1>Acerca de mi</h1>
+        <p>
+          ¡Bienvenido a mi pagina web! Soy un apasionado del ejercicio y del
+          bienestar físico, certificado como Personal Trainer y Nutricionista
+          Deportivo. Mi misión es ayudarte a alcanzar tus objetivos de salud y
+          fitness, para llevarte a nuevos niveles de bienestar y desempeño
+          físico.
+        </p>
+        <br />
+        <p>
+          Con mi experiencia y conocimientos en entrenamiento y nutrición, te
+          ofreceré consejos prácticos, rutinas de ejercicio y planes de
+          alimentación personalizados para ayudarte a alcanzar tus metas.
+        </p>
+        <br />
+        <p>
+          ¡Únete a mí equipo en este viaje hacia un estilo de vida más saludable
+          y activo!"
+        </p>
+        <br />
+      </div>
+    </section>
+    <section>
+      <div class="container AVid">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/consejosHome.png"
+                class="d-block w-44"
+                style="height: 350px; justify-self: center"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/consejo1.png"
+                class="d-block w-44"
+                style="height: 350px; justify-self: center"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/consejo2.png"
+                class="d-block w-44"
+                style="height: 350px; justify-self: center"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/consejo3.png"
+                class="d-block w-44"
+                style="height: 350px; justify-self: center"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <video
+          src="./assets/vid/video1.mp4"
+          poster="./assets/img/previewVID.png"
+          controls
+        ></video>
+        <p style="color: red; font-size: 1.5em">
+          Si quieres ver mas de mi contenido sigueme en instagram
+        </p>
+        <a href="https://www.instagram.com/frankfiit/"
+          ><img
+            src="assets/img/icoIG.png"
+            alt=""
+            style="border-radius: 1em; height: 70px"
+        /></a>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
